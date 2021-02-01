@@ -1,0 +1,67 @@
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap);
+button {
+    font-family: $open;
+    font-size: smaller;
+    
+  }
+h1, h2, h3, h4, h5, h6 {
+  font-family: $rale;
+  font-weight: bold;
+  &:hover{
+    color: $bazul;
+  &:focus{
+      color: $silv;
+  }
+}
+}
+p{
+  font-family: $rale;
+  font-weight: normal;
+}
+.footer__items p, .footer__derechos p {
+  font-family: $open;
+  font-size: smaller;
+  font-weight: lighter;
+  font-size: 0.75rem; }
+   
+nav ul li a{
+  font-family: $open;
+  font-size: medium;
+  color:$onyx;
+    &:hover{
+      color:$bazul;
+    }
+}
+h1{
+  font-size: 50px;
+}
+h2{
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: -10px;
+}
+h3{
+  font-size: 20px;
+  margin-top: 12px;
+}
+.con3_caja_iz, .con3_caja_der{
+  h4{
+    font-size: xx-large;
+    font-weight: lighter;
+    margin-top: 25px;
+  }
+  h3{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+  li{
+    list-style: disc;
+    font-family: $open;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+    
+  }
+}

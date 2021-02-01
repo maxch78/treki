@@ -1,0 +1,24 @@
+*{
+    margin:0;
+    padding: 0;
+    list-style:none;
+    text-decoration: none;
+    box-sizing: border-box;
+    input[type="submit"],
+    input[type="reset"],
+    input[type="button"],
+    button {
+    background: none;
+    border: 0;
+    color: inherit;
+  /* cursor: por defecto; */
+    font: inherit;
+    line-height: normal;
+    overflow: visible;
+    padding: 0;
+    -webkit-user-select: none; /* para los botones */
+    -webkit-appearance: button; /* para input */
+    -moz-user-select: none;
+    -ms-user-select: none;
+    }
+}

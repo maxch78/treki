@@ -1,0 +1,26 @@
+footer{
+    background-color: $rais;
+    color: $blanco;
+    padding: 50px;
+    display: flex;
+    flex-flow:row wrap;
+    justify-items:center;   
+}
+
+  .footer__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); }
+    .footer__grid_item {
+      margin:auto;
+      margin-right:15px;
+      margin-left:15px;
+      grid-column: auto / span 1;
+     }
+
+.footer__derechos{
+    margin-left:auto;
+    @media only screen and (max-width: 768px) {
+        margin-right:100px;
+        margin:auto;
+        margin-top: 25px;
+}}
